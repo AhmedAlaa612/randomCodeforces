@@ -11,7 +11,7 @@ page = st.sidebar.radio("What do you want?", ["Random Problem", "Random Contest"
 if page == "Random Problem":
     # Define the tags, ratings, and logical operators
     tags = ['*special', '2-sat', 'binary search', 'bitmasks', 'brute force', 'chinese remainder theorem', 'combinatorics', 'constructive algorithms', 'data structures', 'dfs and similar', 'divide and conquer', 'dp', 'dsu', 'expression parsing', 'fft', 'flows', 'games', 'geometry', 'graph matchings', 'graphs', 'greedy', 'hashing', 'implementation', 'interactive', 'math', 'matrices', 'meet-in-the-middle', 'number theory', 'probabilities', 'schedules', 'shortest paths', 'sortings', 'string suffix structures', 'strings', 'ternary search', 'trees', 'two pointers']
-    min_rating, max_rating = get_min_max_rating(problems)
+    min_rating, max_rating = 800, 3500
     logical_operators = ["AND", "OR"]
 
     # Streamlit app layout
